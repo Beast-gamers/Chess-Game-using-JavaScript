@@ -97,7 +97,7 @@ document.querySelectorAll('.box').forEach(item => {
         else if (item.style.backgroundColor == 'greenyellow' && item.innerText.length !== 0) {
 
             document.querySelectorAll('.box').forEach(i => {
-                if (i.style.backgroundColor == 'blue') {
+                if (i.style.backgroundColor == 'ACFFFF') {
                     blueId = i.id
                     blueText = i.innerText
 
